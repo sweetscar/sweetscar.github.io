@@ -1,69 +1,442 @@
 <!doctype html>
-<html lang="en">
+<html lang="id-ID">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Rizky Kurniawan">
+        <meta name="description" content="Rizky Kurniawan | Learner - Backend Developer - Tech Enthusiast">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Rizky Kurniawan</title>
-    <style>
-        #main {
-            width: 100vw;
-            min-height: 100vh;
-        }
-        .bg-teal{
-            background-color: teal;
-        }
-    </style>
-</head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Work+Sans:wght@500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<body>
-    <main class="container-fluid">
-        <div id="main" class="row no-gutters">
-            <div
-                class="p-3 col-lg-2 col-md-6 col-12 bg-teal d-flex align-items-lg-center align-items-md-center align-items-end justify-content-lg-center justify-content-md-end justify-content-center">
-                <img src="https://avatars0.githubusercontent.com/u/55426692?s=400&v=4" style="width: 200px;"
-                    class="img-fluid rounded mb-3">
-            </div>
-            <div
-                class="p-3 col-lg-10 col-md-6 col-12 bg-dark d-flex align-items-lg-center align-items-md-center align-items-start justify-content-lg-start justify-content-md-start justify-content-center">
-                <div>
-                    <div style="font-size: 25px; font-weight: bolder;"
-                        class="mb-1 text-uppercase text-light text-center text-md-start text-lg-start">Rizky Kurniawan
+        <link rel="stylesheet" href="./assets/css/cs-style.css">
+
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+
+        <script src="./assets/js/fontawesome.js"></script>
+
+        <title>Rizky Kurniawan | Learner - Backend Developer - Tech Enthusiast</title>
+    </head>
+
+    <body id="home">
+        <nav class="sticky-top navbar navbar-expand-lg navbar-light cs-bg-light py-3">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="">Rizky</a>
+                <button style="box-shadow: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="material-icons va-top">menu_open</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link fw-bold" href="#home">Home</a>
+                        <a class="nav-link fw-bold" href="#about">About</a>
+                        <a class="nav-link fw-bold" href="#skill">Skills</a>
+                        <a class="nav-link fw-bold" href="#project">Project</a>
+                        <a class="nav-link fw-bold" href="#blog">Blog</a>
+                        <a class="nav-link fw-bold" href="#youtube">From YouTube</a>
+                        <a class="nav-link fw-bold" href="#contact">Contact</a>
                     </div>
-                    <div class="text-light text-center text-md-start text-lg-start mb-3">Learner | Developer | Tech
-                        Enthusiast</div>
-                    <div class="text-center text-md-start text-lg-start">
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">Curiculum Vitae</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">Portofolio</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">Blog</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">YouTube</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">GitHub</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">Instagram</a>
-                        <a href="" class="btn btn-sm btn-outline-light rounded-pill mb-1">LinkedIn</a>
+                </div>
+            </div>
+        </nav>
+        <header class="cs-bg-light pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 d-flex align-items-center">
+                        <div>
+                            <h1 class="name fw-bold">Rizky Kurniawan</h1>
+                            <h6 class="mb-4">LEARNER &#183; BACKEND DEVELOPER &#183; TECH ENTHUSIAST</h6>
+                            <div>
+                                <a title="GitHub" style="outline: none; box-shadow: none;"
+                                    href="https://github.com/kykurniawan" target="_blank"
+                                    class="btn btn-sm btn-primary rounded-0"><i class="fa fa-github fs-5"></i></a>
+                                <a title="YouTube" style="outline: none; box-shadow: none;"
+                                    href="https://www.youtube.com/channel/UC4G--03ELkOXX-dcSq_LMQQ" target="_blank"
+                                    class="btn btn-sm btn-primary rounded-0"><i class="fa fa-youtube fs-5"></i></a>
+                                <a title="LinkedIn" style="outline: none; box-shadow: none;"
+                                    href="https://linkedin.com/in/kykurniawan" target="_blank"
+                                    class="btn btn-sm btn-primary rounded-0"><i class="fa fa-linkedin fs-5"></i></a>
+                                <a title="Instagram" style="outline: none; box-shadow: none;"
+                                    href="https://instagram.com/_sweet.scar" target="_blank"
+                                    class="btn btn-sm btn-primary rounded-0"><i class="fa fa-instagram fs-5"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <img src="./assets/img/r.png" alt="" class="img-fluid w-100 d-lg-block d-none">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about py-5" id="about">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-4 mb-3 px-lg-3 px-5">
+                        <img src="https://kykurniawan.github.io/files/profile.jpg" alt="about me picture"
+                            class="img-fluid rounded-circle shadow-sm w-100">
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-center">
+                        <div>
+                            <h2 class="cs-main-font fw-bold mb-5 text-lg-start text-center">About Me</h2>
+                            <p>Saya Rizky Kurniawan, Mahasiswa Teknik Informatika di Universitas Islam Kalimantan,
+                                Banjarmasin,
+                                Kalimantan Selatan.</p>
+                            <p>Saya berasal dari Desa Subur Indah, Katingan Kuala, Kab. katingan, Kalimantan Tengah.</p>
+                            <p>Aktifitas sehari-hari saya saat ini adalah mempelajari berbagai hal yang berkaitan dengan
+                                pemrograman
+                                web, terkadang saya juga bekerja sebagai freelancer untuk membuat website. Beberapa
+                                bahasa pemrograman
+                                yang biasanya saya gunakan adalah PHP, Python, Javascript, dan Kotlin. dan
+                                framework/teknologi yang saya
+                                pelajari biasanya Codeigniter, Laravel, Django, Nodejs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 cs-bg-light" id="skill">
+            <div class="container py-5">
+                <h2 class="cs-main-font fw-bold mb-5 text-center">Skills</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <img src="./assets/img/django-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
+                        <h5 class="text-muted fw-bold">Python Django</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <img src="./assets/img/nodejs-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
+                        <h5 class="text-muted fw-bold">Node JS</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <img src="./assets/img/codeigniter-skill-icon.png" alt=""
+                            class="img-fluid rounded shadow w-50 mb-4">
+                        <h5 class="text-muted fw-bold">Codeigniter</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                        <img src="./assets/img/git-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
+                        <h5 class="text-muted fw-bold">Version Control</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project py-5 bg-light" id="project">
+            <div class="container py-lg-5 py-4">
+                <h2 class="cs-main-font fw-bold mb-5 text-center">Projects</h2>
+                <div id="swiper-control-button" class="text-end mb-3">
+                    <button style="box-shadow: none;" type="button" class="swiper-prev btn btn-sm btn-primary"><span
+                            class="material-icons va-middle">keyboard_arrow_left</span></button>
+                    <button style="box-shadow: none;" type="button" class="swiper-next btn btn-sm btn-primary"><span
+                            class="material-icons va-middle">keyboard_arrow_right</span></button>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-3 order-lg-0 order-md-0 order-1" data-aos="fade-up">
+                        <div>
+                            <h3 class="mb-4 mplus text-soft-black" id="project-title">
+                                Web Portofolio
+                            </h3>
+                            <div id="project-description">
+                                <p>Di dalam website ini terdapat berbagai postingan tentang pemrograman dan teknologi,
+                                    showcase proyek saya, dan
+                                    beberapa video yang saya ambil dari channel YouTube saya.</p>
+                                <ul>
+                                    <li><strong>Jenis Aplikasi:</strong> Web</li>
+                                    <li><strong>Stack:</strong> Python, Django, PostgreSQL, Javascript, Bootstrap</li>
+                                    <li><strong>Hosting:</strong> Heroku</li>
+                                    <li><strong>Storage:</strong> AWS S3</li>
+                                    <li><strong>Link:</strong>
+                                        <a href='https://rizkykurniawan.herokuapp.com'>Click Here</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3 order-lg-1 order-md-1 order-0" data-aos="fade-up">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card border-0 h-100">
+                                        <img loading="lazy"
+                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/7ad2161e-86d8-4c56-9913-7f2c11225bc0-Screenshot_114.png"
+                                            alt="project image" class="card-img-top img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0 h-100">
+                                        <img loading="lazy"
+                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/ea942d23-8a9e-45a9-81be-d0030a585da1-Screenshot_113.png"
+                                            alt="project image" class="card-img-top img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0 h-100">
+                                        <img loading="lazy"
+                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/91ff09ff-72d0-4694-a287-101209a6ca22-web-hmp-ti-uniska.png"
+                                            alt="project image" class="card-img-top img-fluid w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog py-5" id="blog">
+            <div class="container py-5">
+                <h2 class="cs-main-font fw-bold mb-5 text-center">Blogs</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                        <div style="cursor: pointer;" onclick="showBlogModal(0)"
+                            class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
+                            <img src="assets/img/1.png" alt="Mengenal Bahasa Pemrograman Kotlin"
+                                class="card-img-top img-fluid w-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Mengenal Bahasa Pemrograman Kotlin</h5>
+                                <p>Kotlin adalah sebuah bahasa pemrograman dengan pengetikan statis yang berjalan pada
+                                    Mesin
+                                    Virtual Java ataupun menggunakan...</p>
+                                <small class="text-muted">15 Juni 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                        <div style="cursor: pointer;" onclick="showBlogModal(1)"
+                            class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
+                            <img src="assets/img/2.jpg" alt="Mengenal Bahasa Pemrograman Python"
+                                class="card-img-top img-fluid w-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Mengenal Bahasa Pemrograman Python</h5>
+                                <p>Python adalah bahasa pemrograman interpretatif multiguna dengan filosofi perancangan
+                                    yang berfokus pada tingkat
+                                    keterbacaan kode. Python diklaim sebagai...</p>
+                                <small class="text-muted">14 Juni 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                        <div style="cursor: pointer;" onclick="showBlogModal(2)"
+                            class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
+                            <img src="assets/img/3.jpg" alt="" class="card-img-top img-fluid w-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Apa itu GitHub Pages?</h5>
+                                <p>GitHub Pages adalah layanan hosting situs statis yang mengambil file HTML, CSS, dan
+                                    JavaScript langsung dari repositori di GitHub...</p>
+                                <small class="text-muted">15 Juni 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                        <div style="cursor: pointer;" onclick="showBlogModal(3)"
+                            class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
+                            <img src="assets/img/1.png" alt="" class="card-img-top img-fluid w-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Mengenal Bahasa Pemrograman Kotlin</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint ad sed iste,
+                                    rerum maiores aspernatur magni dolores</p>
+                                <small class="text-muted">15 Juni 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project py-5 bg-light" id="youtube">
+            <div class="container py-5">
+                <h2 class="cs-main-font fw-bold mb-5 text-center">From YouTube</h2>
+                <div class="row">
+                    <div class="col-lg-4 mb-3">
+                        <div onclick="showVideoModal('7ay61Uq_FOE')" style="cursor: pointer;"
+                            class="card border-0 h-100 video-card" data-aos="fade-up">
+                            <img loading="lazy" src="https://img.youtube.com/vi/7ay61Uq_FOE/0.jpg" alt="video thumbnail"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title text-secondary">BEGINI CARA SCREENSHOT DI VISUAL
+                                    STUDIO CODE (VS
+                                    CODE) AGAR HASILNYA BAGUS DAN RAPI</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div onclick="showVideoModal('ueQhG91SKnA')" style="cursor: pointer;"
+                            class="card border-0 h-100 video-card" data-aos="fade-up">
+                            <img loading="lazy" src="https://img.youtube.com/vi/ueQhG91SKnA/0.jpg" alt="video thumbnail"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title text-secondary">MEMBUAT APLIKASI KONVERTER SUHU
+                                    SEDERHANA DENGAN
+                                    BAHASA PEMROGRAMAN PHP</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div onclick="showVideoModal('nXzEG2SBBhQ')" style="cursor: pointer;"
+                            class="card border-0 h-100 video-card" data-aos="fade-up">
+                            <img loading="lazy" src="https://img.youtube.com/vi/nXzEG2SBBhQ/0.jpg" alt="video thumbnail"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title text-secondary">CARA MUDAH MENGGUNAKAN FORM, FOR
+                                    LOOP, DAN IF DI
+                                    PHP</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact py-5 cs-bg-light" id="contact">
+            <div class="container py-5">
+                <h2 class="cs-main-font fw-bold mb-5 text-center">Contact Me</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-lg-0 mb-4">
+                        <h4 class="mb-5">Contact Info</h4>
+                        <div class="mb-3">
+                            <h5 class="text-primary">Alamat Email</h5>
+                            <h6>me.rizkykurniawan@gmail.com</h6>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="text-primary">Nomor Telepon</h5>
+                            <h6>(+62) 822 5654 5404</h6>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="text-primary">Alamat</h5>
+                            <h6>Jl. Semangat Dalam, Handil Bakti, Barito Kuala, Kalimantan Selatan.</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form method="POST" id="contact-form">
+                            <input type="hidden" name="csrfmiddlewaretoken"
+                                value="NwqbOmFkD9k2Gf1Otl6xgYbNQuaOiRkq57iWp2RbVdE6w8vvhgaOfBcUksiqDqop">
+                            <div class="row mb-lg-3 mb-2 g-2 g-lg-3">
+                                <div class="col">
+                                    <input type="text" name="name" maxlength="128" class="form-control shadow py-3"
+                                        placeholder="Nama lengkap" required id="id_name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" name="email" class="form-control shadow py-3"
+                                        placeholder="Alamat email" required id="id_email">
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 mb-2">
+                                <input type="text" name="subject" maxlength="128" class="form-control shadow py-3"
+                                    placeholder="Subjek" required id="id_subject">
+                            </div>
+                            <div class="mb-lg-3 mb-2">
+                                <textarea name="message" cols="40" rows="10" class="form-control shadow py-3"
+                                    placeholder="Pesan" required id="id_message"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="button" class="btn shadow btn-primary">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <h6 class="text-light mb-5">RIZKY KURNIAWAN</h6>
+                        <p class="text-muted">Learner &#183; Backend Developer &#183; Tech Enthusiast</p>
+                        <p class="text-muted">Student at Islamic University Of Kalimantan, Muhammad Arsyad Al Banjari,
+                            Banjarmasin.</p>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <h6 class="text-light mb-5">SOCIAL MEDIA</h6>
+                        <p class="text-muted">
+                            <a style="outline: none; box-shadow: none;" href="https://github.com/kykurniawan"
+                                target="_blank" class="text-decoration-none">GitHub</a>
+                        </p>
+                        <p class="text-muted">
+                            <a style="outline: none; box-shadow: none;"
+                                href="https://www.youtube.com/channel/UC4G--03ELkOXX-dcSq_LMQQ" target="_blank"
+                                class="text-decoration-none">YouTube</a>
+                        </p>
+                        <p class="text-muted">
+                            <a style="outline: none; box-shadow: none;" href="https://linkedin.com/in/kykurniawan"
+                                target="_blank" class="text-decoration-none">LinkedIn</a>
+                        </p>
+                        <p class="text-muted">
+                            <a style="outline: none; box-shadow: none;" href="https://instagram.com/_sweet.scar"
+                                target="_blank" class="text-decoration-none">Instagram</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <h6 class="text-light mb-5">GET IN TOUCH</h6>
+                        <div class="mb-2">
+                            <p class="text-primary">Alamat Email</p>
+                            <p class="text-muted">me.rizkykurniawan@gmail.com</p>
+                        </div>
+                        <div class="mb-2">
+                            <p class="text-primary">Nomor Telepon</p>
+                            <p class="text-muted">(+62) 822 5654 5404</p>
+                        </div>
+                        <div class="mb-2">
+                            <p class="text-primary">Alamat</p>
+                            <p class="text-muted">Jl. Semangat Dalam, Handil Bakti, Barito Kuala, Kalimantan Selatan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top border-secondary my-3"></div>
+                <div class="fw-bold text-muted text-center">
+                    Copyright &copy; 2021 Rizky Kurniawan. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modals -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loader py-5" style="display: none;">
+                            <div class="text-center">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ratio iframe-container ratio-16x9" style="display: none;">
+                            <iframe src="" title="YouTube video" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="blogModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" alt="Blog Image" class="img-fluid w-100 mb-4">
+                        <h4 class="fw-bold text-secondary blog-title mb-4"></h4>
+                        <article></article>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <script src="./assets/js/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
 
 </html>
