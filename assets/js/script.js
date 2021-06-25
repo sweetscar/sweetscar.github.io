@@ -95,9 +95,9 @@ function showBlogModal(blogId) {
             image: "assets/img/3.jpg"
         },
         {
-            title: "Mengenal Bahasa Pemrograman Kotlin",
-            content: "",
-            image: "assets/img/1.png"
+            title: "Apa itu Docker?",
+            content: "<p>Docker adalah platform perangkat lunak yang memungkinkan Anda membuat, menguji, dan menerapkan aplikasi dengan cepat. Docker mengemas perangkat lunak ke dalam unit standar yang disebut kontainer yang memiliki semua yang diperlukan perangkat lunak agar dapat berfungsi termasuk pustaka, alat sistem, kode, dan waktu proses. Dengan menggunakan Docker, Anda dapat dengan cepat menerapkan dan menskalakan aplikasi ke lingkungan apa pun dan yakin bahwa kode Anda akan berjalan.</p>Menjalankan Docker di AWS memberi pengembang dan admin cara yang sangat andal dan murah untuk membuat, mengirim, dan menjalankan aplikasi terdistribusi dalam segala skala.<p></p><p>Docker berfungsi dengan menyediakan cara standar untuk menjalankan kode Anda. Docker adalah sistem operasi untuk kontainer. Mirip dengan cara mesin virtual memvirtualisasi (menghilangkan kebutuhan untuk secara langsung mengelola) perangkat keras server, kontainer memvirtualisasi sistem operasi server. Docker diinstal di setiap server dan memberikan perintah sederhana yang dapat Anda gunakan untuk membuat, memulai, atau menghentikan kontainer.</p>",
+            image: "assets/img/docker.jpg"
         },
     ]
     let blogModal = $('#blogModal')

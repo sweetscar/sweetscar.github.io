@@ -18,6 +18,8 @@
             rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <link rel="stylesheet" href="./assets/css/cs-style.css">
 
         <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
@@ -54,9 +56,9 @@
                 <div class="row">
                     <div class="col-lg-8 d-flex align-items-center">
                         <div>
-                            <h1 class="name fw-bold">Rizky Kurniawan</h1>
-                            <h6 class="mb-4">LEARNER &#183; BACKEND DEVELOPER &#183; TECH ENTHUSIAST</h6>
-                            <div>
+                            <h1 class="name fw-bold" data-aos="fade-right" data-aos-duration="2000">Rizky Kurniawan</h1>
+                            <h6 class="mb-4" data-aos="fade-up" data-aos-duration="2000">LEARNER &#183; BACKEND DEVELOPER &#183; TECH ENTHUSIAST</h6>
+                            <div data-aos="fade-left" data-aos-duration="2000">
                                 <a title="GitHub" style="outline: none; box-shadow: none;"
                                     href="https://github.com/kykurniawan" target="_blank"
                                     class="btn btn-sm btn-primary rounded-0"><i class="fa fa-github fs-5"></i></a>
@@ -72,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-center">
+                    <div class="col-lg-4 d-flex align-items-center" data-aos="fade-left" data-aos-duration="2000">
                         <img src="./assets/img/r.png" alt="" class="img-fluid w-100 d-lg-block d-none">
                     </div>
                 </div>
@@ -81,11 +83,11 @@
         <section class="about py-5" id="about">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-lg-4 mb-3 px-lg-3 px-5">
-                        <img src="https://kykurniawan.github.io/files/profile.jpg" alt="about me picture"
-                            class="img-fluid rounded-circle shadow-sm w-100">
+                    <div class="col-lg-4 mb-3 px-lg-3 px-5 my-picture-wrapper" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="./assets/img/profile.jpg" alt="about me picture"
+                            class="img-fluid rounded shadow-sm w-100 my-picture">
                     </div>
-                    <div class="col-lg-8 d-flex align-items-center">
+                    <div class="col-lg-8 d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
                         <div>
                             <h2 class="cs-main-font fw-bold mb-5 text-lg-start text-center">About Me</h2>
                             <p>Saya Rizky Kurniawan, Mahasiswa Teknik Informatika di Universitas Islam Kalimantan,
@@ -108,20 +110,20 @@
             <div class="container py-5">
                 <h2 class="cs-main-font fw-bold mb-5 text-center">Skills</h2>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <div class="col-lg-3 col-md-6 text-center mb-4" data-aos="fade-up-right" data-aos-duration="2000">
                         <img src="./assets/img/django-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
                         <h5 class="text-muted fw-bold">Python Django</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <div class="col-lg-3 col-md-6 text-center mb-4" data-aos="fade-up" data-aos-duration="2000">
                         <img src="./assets/img/nodejs-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
                         <h5 class="text-muted fw-bold">Node JS</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <div class="col-lg-3 col-md-6 text-center mb-4" data-aos="fade-up" data-aos-duration="2000">
                         <img src="./assets/img/codeigniter-skill-icon.png" alt=""
                             class="img-fluid rounded shadow w-50 mb-4">
                         <h5 class="text-muted fw-bold">Codeigniter</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <div class="col-lg-3 col-md-6 text-center mb-4" data-aos="fade-up-left" data-aos-duration="2000">
                         <img src="./assets/img/git-skill-icon.png" alt="" class="img-fluid rounded shadow w-50 mb-4">
                         <h5 class="text-muted fw-bold">Version Control</h5>
                     </div>
@@ -138,7 +140,7 @@
                             class="material-icons va-middle">keyboard_arrow_right</span></button>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 mb-3 order-lg-0 order-md-0 order-1" data-aos="fade-up">
+                    <div class="col-lg-6 mb-3 order-lg-0 order-md-0 order-1" data-aos="fade-right" data-aos-duration="2000">
                         <div>
                             <h3 class="mb-4 mplus text-soft-black" id="project-title">
                                 Web Portofolio
@@ -165,21 +167,21 @@
                                 <div class="swiper-slide">
                                     <div class="card border-0 h-100">
                                         <img loading="lazy"
-                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/7ad2161e-86d8-4c56-9913-7f2c11225bc0-Screenshot_114.png"
+                                            src="./assets/img/7ad2161e-86d8-4c56-9913-7f2c11225bc0-Screenshot_114.png"
                                             alt="project image" class="card-img-top img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card border-0 h-100">
                                         <img loading="lazy"
-                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/ea942d23-8a9e-45a9-81be-d0030a585da1-Screenshot_113.png"
+                                            src="./assets/img/ea942d23-8a9e-45a9-81be-d0030a585da1-Screenshot_113.png"
                                             alt="project image" class="card-img-top img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card border-0 h-100">
                                         <img loading="lazy"
-                                            src="https://rizkykurniawan.s3.amazonaws.com/media/project_images/91ff09ff-72d0-4694-a287-101209a6ca22-web-hmp-ti-uniska.png"
+                                            src="./assets/img/91ff09ff-72d0-4694-a287-101209a6ca22-web-hmp-ti-uniska.png"
                                             alt="project image" class="card-img-top img-fluid w-100">
                                     </div>
                                 </div>
@@ -193,7 +195,7 @@
             <div class="container py-5">
                 <h2 class="cs-main-font fw-bold mb-5 text-center">Blogs</h2>
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3" data-aos="zoom-in" data-aos-duration="2000">
                         <div style="cursor: pointer;" onclick="showBlogModal(0)"
                             class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
                             <img src="assets/img/1.png" alt="Mengenal Bahasa Pemrograman Kotlin"
@@ -207,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3" data-aos="zoom-in" data-aos-duration="2000">
                         <div style="cursor: pointer;" onclick="showBlogModal(1)"
                             class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
                             <img src="assets/img/2.jpg" alt="Mengenal Bahasa Pemrograman Python"
@@ -221,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3" data-aos="zoom-in" data-aos-duration="2000">
                         <div style="cursor: pointer;" onclick="showBlogModal(2)"
                             class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
                             <img src="assets/img/3.jpg" alt="" class="card-img-top img-fluid w-100">
@@ -233,14 +235,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3" data-aos="zoom-in" data-aos-duration="2000">
                         <div style="cursor: pointer;" onclick="showBlogModal(3)"
                             class="card h-100 blog-card border-0 rounded-0 cs-bg-light">
-                            <img src="assets/img/1.png" alt="" class="card-img-top img-fluid w-100">
+                            <img src="assets/img/docker.jpg" alt="" class="card-img-top img-fluid w-100">
                             <div class="card-body">
-                                <h5 class="fw-bold">Mengenal Bahasa Pemrograman Kotlin</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint ad sed iste,
-                                    rerum maiores aspernatur magni dolores</p>
+                                <h5 class="fw-bold">Apa itu Docker?</h5>
+                                <p>Docker adalah platform perangkat lunak yang memungkinkan Anda membuat, menguji, dan menerapkan aplikasi dengan cepat.</p>
                                 <small class="text-muted">15 Juni 2021</small>
                             </div>
                         </div>
@@ -252,7 +253,7 @@
             <div class="container py-5">
                 <h2 class="cs-main-font fw-bold mb-5 text-center">From YouTube</h2>
                 <div class="row">
-                    <div class="col-lg-4 mb-3">
+                    <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-duration="2000">
                         <div onclick="showVideoModal('7ay61Uq_FOE')" style="cursor: pointer;"
                             class="card border-0 h-100 video-card" data-aos="fade-up">
                             <img loading="lazy" src="https://img.youtube.com/vi/7ay61Uq_FOE/0.jpg" alt="video thumbnail"
@@ -264,7 +265,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-3">
+                    <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-duration="2000">
                         <div onclick="showVideoModal('ueQhG91SKnA')" style="cursor: pointer;"
                             class="card border-0 h-100 video-card" data-aos="fade-up">
                             <img loading="lazy" src="https://img.youtube.com/vi/ueQhG91SKnA/0.jpg" alt="video thumbnail"
@@ -276,7 +277,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-3">
+                    <div class="col-lg-4 mb-3" data-aos="fade-right" data-aos-duration="2000">
                         <div onclick="showVideoModal('nXzEG2SBBhQ')" style="cursor: pointer;"
                             class="card border-0 h-100 video-card" data-aos="fade-up">
                             <img loading="lazy" src="https://img.youtube.com/vi/nXzEG2SBBhQ/0.jpg" alt="video thumbnail"
@@ -295,7 +296,7 @@
             <div class="container py-5">
                 <h2 class="cs-main-font fw-bold mb-5 text-center">Contact Me</h2>
                 <div class="row">
-                    <div class="col-lg-6 mb-lg-0 mb-4">
+                    <div class="col-lg-6 mb-lg-0 mb-4" data-aos="fade-right" data-aos-duration="2000">
                         <h4 class="mb-5">Contact Info</h4>
                         <div class="mb-3">
                             <h5 class="text-primary">Alamat Email</h5>
@@ -310,7 +311,7 @@
                             <h6>Jl. Semangat Dalam, Handil Bakti, Barito Kuala, Kalimantan Selatan.</h6>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="2000">
                         <form method="POST" id="contact-form">
                             <input type="hidden" name="csrfmiddlewaretoken"
                                 value="NwqbOmFkD9k2Gf1Otl6xgYbNQuaOiRkq57iWp2RbVdE6w8vvhgaOfBcUksiqDqop">
@@ -437,6 +438,11 @@
         <script src="./assets/js/swiper-bundle.min.js"></script>
         <script src="./assets/js/jquery-3.6.0.min.js"></script>
         <script src="./assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>
